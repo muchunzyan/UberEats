@@ -1,345 +1,348 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="main_style.css" />
+    <link rel="stylesheet" href="main_style.css"/>
     <title>Главная</title>
-  </head>
-  <body>
-    <div id="nav_bar" class="nav_bar">
-      <div
-        class="container"
-        style="
+</head>
+<body>
+<div id="nav_bar" class="nav_bar">
+    <div
+            class="container"
+            style="
           display: flex;
           flex-direction: row;
           justify-content: space-between;
         "
-      >
+    >
         <a href="index.html"
-          ><img
-            style="margin-top: 30px"
-            src="img/Stores/logo.svg"
-            width="119.23"
-            height="12.31"
-          />
+        ><img
+                style="margin-top: 30px"
+                src="img/Stores/logo.svg"
+                width="119.23"
+                height="12.31"
+                alt="logo"/>
         </a>
         <div>
-          <button type="button" class="log_in_btn">
-            <span class="log_in_text">Войти</span>
-          </button>
+            <button type="button" class="log_in_btn">
+                <span class="log_in_text">Войти</span>
+            </button>
 
-          <button type="button" class="cart_btn">
-            <img src="img/Stores/basket.svg" />
-          </button>
+            <button type="button" class="cart_btn">
+                <img src="img/Stores/basket.svg" alt="basket"/>
+            </button>
         </div>
-      </div>
     </div>
+</div>
 
+<div class="container">
+    <label>
+        <input
+                type="text"
+                placeholder="Поиск по ресторанам и кухням"
+                style="
+            width: 100%;
+            margin-top: 56px;
+
+            border: none;
+            border-bottom: 1px solid #757575;
+            opacity: 0.3;
+
+            font-family: 'Roboto',serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+          "
+        />
+    </label>
+</div>
+
+<div class="container">
+    <h2>Рестораны в Москве</h2>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/5e16/8518/66f1d3abd4940a817c788c541e9fbeb3?Expires=1662336000&Signature=C8WJipyv5WmOXpCZ47nUzhJvnfeK4qXFQzynPL9nYRaK5XxH3aNijFziZNgHsKY87Qra-bdGejr75DioZ4-Ld7dbFOTVxxrFkCamm1TQAhK8SfRorXWoYswzp5Gg-9ux-wbILMyZp0WscxxQanubNqe5EAV4C8c8XgdjBlaDATd1cy2-DC9n0oRaZc81TyQBOMsXDAO9tw7d0L3wU0nbyR3xbRisbBAbEB9SQt1KgqSXhX0McxjOhK8jr~4e2ruGr1sn~kJhnhtRuOlD7rlkFAI2E9~pR01tZ9QcEPJKeaPZjlikk5p2xF1c4SfnkwYKjBZlwd5q1tuA9iCtr8ak5g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="Макдоналдс — Газетный"
+                />
+                <h3>Макдоналдс — Газетный</h3>
+                <div class="card_price">₽₽ • Бургеры</div>
+                <div class="card_deliv_time">25 - 35 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/f68f/d639/d6cbe90533884dd7cfe6649222111bfa?Expires=1662336000&Signature=ev~hw6vnywybxg85c~FnftFLuf3bNeUTZ4HrcP7Sv2l9ejoQWiuQCYliILcH7QImLaBlOxcPM9dv8xD9otj1k4honp6YQnY5o1WDdF-BxTje8Tx0xrb2iD3rq8r1AjoRoGXJ0d6CGFPciq9GzGp2k69bcAW6E9dVBMv8BBSzleSkX~K7yfSgsBfCSl~zdaJEupReXVzYrj8t7WsKGG6CXVqXIk-SFHv7NFO0xq22gwmzTPRFW5PGRO66CZ25poOjX-A8v2qQ1dGRc5cdhEx6LFUcTYfzgvEzF-o2F6u75hiM0Xis5HHcuIPhgztmZB0j0Ca4Js~9RlVvOH1L4n9G2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="DimSum & Co — ЦДМ"
+                />
+                <h3>DimSum & Co — ЦДМ</h3>
+                <div class="card_price">₽ • Японская • Китайская • Азиатская</div>
+                <div class="card_deliv_time">40 - 50 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/85df/27c2/a074eb38c8ee48f65c4d05cff31d07ae?Expires=1662336000&Signature=PVW8ENQZbiurggCKQTn-sFTu9bR18PvnT5JuBJMTdEDpP-KQ04efWK-hroIn9aUFX-sjz1WhHAz2JsJ4kmh1IuLbg005FjQ-OxfY423LaBA6oTVGke~sQ4xeFUaJSfRIsw1I-PRS3BiIt8UMAUyFNu1o5cfr2-UeaklHxExNX-vmds2cNhXIKNoVzZoMObPhaVhQIisDZy5Ldo0FyzfKaXlV3PqxwoqAEPs9E1E~JBy3f7k174Y8nlmHoKhdTB2NtjderZrwYs9MW1bPSnq~4lMl99JAQTYbJWFq4w8r8oopLZoOc0PN~KiCVFd9LFfLOwQX5nIkai-M6p-Yic9JGA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="ДвижОК — Манежная"
+                />
+                <h3>ДвижОК — Манежная</h3>
+                <div class="card_price">₽ • Американская • Европейская</div>
+                <div class="card_deliv_time">35 - 45 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/f728/ad2b/b170f9a27e7164c221721bfc87422d65?Expires=1662336000&Signature=VMxmz3ciOp9qA-bNi5UKEeYplEJBSebBfMe~DXJTmrPipMbED1b1Ayz~FcpbYDlkIkIG0tODKi305QoaQC1hOhQMBTqWk4CTe6vbkYyzFLC7MJLitDW8kDd--Fvge3tcuwfxfqE~GtmcSx5XVTpzGnS72Yd4mNn4UqZUSxnB3Siklcer79kE8-ASw~4nKK6n4LM-AT44OhLJOQwUaFVBse4Qg~QX3uP3jdiJsBqPXc~GNl9Iwc0TxmmYPiCjYxMPzo1qCzen8eR4ZTlqXLwO0-0wLskEi1ilzbl5YAC~GltE69I7x~VoU2nxwfomtFE6BpJh1a6-w6dVCEynBbIsog__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="НЯ — NHA"
+                />
+                <h3>НЯ — NHA</h3>
+                <div class="card_price">₽₽ • Вьетнамская</div>
+                <div class="card_deliv_time">30 - 40 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/e74c/b08d/e7ec2190e9f85dd38530ebb6f2d7d0d0?Expires=1662336000&Signature=J52MyRbap3ysYW5y71mtJCHyQYIHLyrYgWb3wZLdQEodnXKOaEIAqTRSsxqvph2l8MwRofeaOZFopAwZPXdTIp-8G23g7fKUPSoMRZ6Eqp24Z9eh9JcIepkbRpPimD6wucsjB0tX92ADN56yY~Kh-CqzsKurafx4-Z4dsRI~TqlybYeIV64WRETVAFOpayf5FgD0ndMV6xZVBtk3bJlsR1V7Aenxlz7z3W9X6Qk4h5lZimr~yjfIgxlFX3SamLDXVcJlRUWs11ZahLE1OTggxwHmxWYtimQ~~3QE9vypm5jnPa2sNFPIwpLF8ZBxRVE4GbkB~972QAGhGujiPqpIuw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="Точка Дзы — Цветной"
+                />
+                <h3>Точка Дзы — Цветной</h3>
+                <div class="card_price">₽₽ • Вьетнамская</div>
+                <div class="card_deliv_time">40 - 50 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/5c6b/8fb4/4c21b22e642a13f62c4b2e98649ec2c9?Expires=1662336000&Signature=fyN5sa1A0vwgsA26MVmDSlVFA55aUZq28mO4HfpsxzDHlYc0nXkCYr536azFiBdykDW5ph0K1P18YXXQIXdVlN~r9-55ikMt~xkYDpHiDBsZzh2L-diHkxd8YBc~f05DrDSpcJAn6Vlx7T1Th1R~Jc96P5xjPmZ8mzlBHvVGi~Vft10jGK5eCqi8x54-o0N2X10N9oj3zTWvp8He5awvjEuP91SIzNUBwY2zH1grxJJwnv2Ph12NgGnN9NX7MMVXWcU3Hr9oNfZnnHyx9mWwnckLe6zcfUPL34kdu0gdGp9YNLTK6CjD92e5WD04m-W5fcDzIrxw5z1wiUFMJqW0kw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="Cinnabon"
+                />
+
+                <h3>Cinnabon</h3>
+                <div class="card_price">₽ • Выпечка • Десерты • Капкейки</div>
+                <div class="card_deliv_time">25 - 35 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/1c92/c4f6/10ed1555ec1226afbb7ebc94743721e9?Expires=1662336000&Signature=h2i0XV2QXl4LcPZX2KHA0QwO4eorgHJQC3wv2fWjiytvybBG7brnV8iSHB-sLmBwelOLU5k1BfeOyZPpjpQ5F7GvoUhLd-xyZeKZbkYkRZPDU1HDGAYAEqKf5q68ywiMTczfq2jEyXAL8UfEyadWbX4UzFF6Kb378Acmtjd6rLsq5-vJSt3Y2rcGW6b2vkpB7r4YHFpJrRXKe-xwbczPx9u~DQ2rNSwPGUUL9QKmZRY2cEreTQaWGxBS9LqAmNDfOldvOdSQrWpieWFQ-qQSIouVz2O~B2fnxMA5kMyEVqHiX2updLoJlQkvcLbLDjLAb9UL3ovZ4zegm1xaH7Dgew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="PIZZELOVE"
+                />
+
+                <h3>PIZZELOVE</h3>
+                <div class="card_price">₽₽ • Пицца</div>
+                <div class="card_deliv_time">15 - 25 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/5f57/fa5f/ee56bc8525b3a87273ebcaaef0d7793e?Expires=1662336000&Signature=CtQq0TpUgRYNvlB7raD~7Uf2QXfwwfqxzp7Y6vNKdLICDh4y6XUbwJWff37zqcJV63GyDUmFeEULJnihZ0AWiGmlyI0JZFYV9FbYuHQEZCbEGbl89GiQ4D1e07jYQYDpkb0BQxOLRcb4QWJA5f3QYc4xsB6XKM63WPs4ygR5m5SBjyQxxso-Zonr8InRlgqagDKNzfIVmiv3e0ZyhqnMrbXhvE6oy98VOi4SSehZd5tse6L6SYI71DORBeRSIQ0-DsFSEaKGYbRFchlG0giZfwPEw24ImPL5ipzjOWXviZyIqMcWVvbwb1GTL4-8C~hh8LBVTl0eJOJOFnVxLSI0Rw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="Zю кафе — Тверская"
+                />
+
+                <h3>Zю кафе — Тверская</h3>
+                <div class="card_price">₽₽ • Японская</div>
+                <div class="card_deliv_time">25 - 35 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="pushkin.html" class="card">
+                <img
+                        class="card_img"
+                        src="https://s3-alpha-sig.figma.com/img/0b8c/5c46/ca4a31f783e1a79e2b56b3218a4dc177?Expires=1662336000&Signature=TTHlJNvnzXLkvkT4kNTDy51M~-pPapj-~GlHrTitASVjtoovgqfXWccxz0OwJ-A1ZU6~JMXnQbVnjTWhEhbJGvgqrr~Dc3ynlAhzHU7pT0pN2QSFwv5olQkm202gEKLlIjuZBGNtaglU5g4nUjnsTLadnVrN8O-fbU2Gn7SEvQbznn3eeaMOEm9x06G7ILCpF-MJWwruoNxwMI2T6bEPYW3ryhrv5CWpgN-CFgBxHXfjFUacqup1eh~uVL-ygGq6QLG~y--iGvBDDcZwT9nAMGS2oeq27Npw-Sz525s~n0K3FVybgKdZaMfDqZB~Z~FNVzeusdzjU11q9qTfjI5G4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                        alt="Bar BQ Cafe — Манежная"
+                />
+
+                <h3>Bar BQ Cafe — Манежная</h3>
+                <div class="card_price">₽₽₽ • Европейская</div>
+                <div class="card_deliv_time">30 - 40 мин</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="page_bottom">
     <div class="container">
-      <input
-        type="text"
-        placeholder="Поиск по ресторанам и кухням"
-        style="
-          width: 100%;
-          margin-top: 56px;
-
-          border: none;
-          border-bottom: 1px solid #757575;
-          opacity: 0.3;
-
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 24px;
-        "
-      />
-    </div>
-
-    <div class="container">
-      <h2>Рестораны в Москве</h2>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/5e16/8518/66f1d3abd4940a817c788c541e9fbeb3?Expires=1662336000&Signature=C8WJipyv5WmOXpCZ47nUzhJvnfeK4qXFQzynPL9nYRaK5XxH3aNijFziZNgHsKY87Qra-bdGejr75DioZ4-Ld7dbFOTVxxrFkCamm1TQAhK8SfRorXWoYswzp5Gg-9ux-wbILMyZp0WscxxQanubNqe5EAV4C8c8XgdjBlaDATd1cy2-DC9n0oRaZc81TyQBOMsXDAO9tw7d0L3wU0nbyR3xbRisbBAbEB9SQt1KgqSXhX0McxjOhK8jr~4e2ruGr1sn~kJhnhtRuOlD7rlkFAI2E9~pR01tZ9QcEPJKeaPZjlikk5p2xF1c4SfnkwYKjBZlwd5q1tuA9iCtr8ak5g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="Макдоналдс — Газетный"
-            />
-            <h3>Макдоналдс — Газетный</h3>
-            <div class="card_price">₽₽ • Бургеры</div>
-            <div class="card_deliv_time">25 - 35 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/f68f/d639/d6cbe90533884dd7cfe6649222111bfa?Expires=1662336000&Signature=ev~hw6vnywybxg85c~FnftFLuf3bNeUTZ4HrcP7Sv2l9ejoQWiuQCYliILcH7QImLaBlOxcPM9dv8xD9otj1k4honp6YQnY5o1WDdF-BxTje8Tx0xrb2iD3rq8r1AjoRoGXJ0d6CGFPciq9GzGp2k69bcAW6E9dVBMv8BBSzleSkX~K7yfSgsBfCSl~zdaJEupReXVzYrj8t7WsKGG6CXVqXIk-SFHv7NFO0xq22gwmzTPRFW5PGRO66CZ25poOjX-A8v2qQ1dGRc5cdhEx6LFUcTYfzgvEzF-o2F6u75hiM0Xis5HHcuIPhgztmZB0j0Ca4Js~9RlVvOH1L4n9G2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="DimSum & Co — ЦДМ"
-            />
-            <h3>DimSum & Co — ЦДМ</h3>
-            <div class="card_price">₽ • Японская • Китайская • Азиатская</div>
-            <div class="card_deliv_time">40 - 50 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/85df/27c2/a074eb38c8ee48f65c4d05cff31d07ae?Expires=1662336000&Signature=PVW8ENQZbiurggCKQTn-sFTu9bR18PvnT5JuBJMTdEDpP-KQ04efWK-hroIn9aUFX-sjz1WhHAz2JsJ4kmh1IuLbg005FjQ-OxfY423LaBA6oTVGke~sQ4xeFUaJSfRIsw1I-PRS3BiIt8UMAUyFNu1o5cfr2-UeaklHxExNX-vmds2cNhXIKNoVzZoMObPhaVhQIisDZy5Ldo0FyzfKaXlV3PqxwoqAEPs9E1E~JBy3f7k174Y8nlmHoKhdTB2NtjderZrwYs9MW1bPSnq~4lMl99JAQTYbJWFq4w8r8oopLZoOc0PN~KiCVFd9LFfLOwQX5nIkai-M6p-Yic9JGA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="ДвижОК — Манежная"
-            />
-            <h3>ДвижОК — Манежная</h3>
-            <div class="card_price">₽ • Американская • Европейская</div>
-            <div class="card_deliv_time">35 - 45 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/f728/ad2b/b170f9a27e7164c221721bfc87422d65?Expires=1662336000&Signature=VMxmz3ciOp9qA-bNi5UKEeYplEJBSebBfMe~DXJTmrPipMbED1b1Ayz~FcpbYDlkIkIG0tODKi305QoaQC1hOhQMBTqWk4CTe6vbkYyzFLC7MJLitDW8kDd--Fvge3tcuwfxfqE~GtmcSx5XVTpzGnS72Yd4mNn4UqZUSxnB3Siklcer79kE8-ASw~4nKK6n4LM-AT44OhLJOQwUaFVBse4Qg~QX3uP3jdiJsBqPXc~GNl9Iwc0TxmmYPiCjYxMPzo1qCzen8eR4ZTlqXLwO0-0wLskEi1ilzbl5YAC~GltE69I7x~VoU2nxwfomtFE6BpJh1a6-w6dVCEynBbIsog__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="НЯ — NHA"
-            />
-            <h3>НЯ — NHA</h3>
-            <div class="card_price">₽₽ • Вьетнамская</div>
-            <div class="card_deliv_time">30 - 40 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/e74c/b08d/e7ec2190e9f85dd38530ebb6f2d7d0d0?Expires=1662336000&Signature=J52MyRbap3ysYW5y71mtJCHyQYIHLyrYgWb3wZLdQEodnXKOaEIAqTRSsxqvph2l8MwRofeaOZFopAwZPXdTIp-8G23g7fKUPSoMRZ6Eqp24Z9eh9JcIepkbRpPimD6wucsjB0tX92ADN56yY~Kh-CqzsKurafx4-Z4dsRI~TqlybYeIV64WRETVAFOpayf5FgD0ndMV6xZVBtk3bJlsR1V7Aenxlz7z3W9X6Qk4h5lZimr~yjfIgxlFX3SamLDXVcJlRUWs11ZahLE1OTggxwHmxWYtimQ~~3QE9vypm5jnPa2sNFPIwpLF8ZBxRVE4GbkB~972QAGhGujiPqpIuw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="Точка Дзы — Цветной"
-            />
-            <h3>Точка Дзы — Цветной</h3>
-            <div class="card_price">₽₽ • Вьетнамская</div>
-            <div class="card_deliv_time">40 - 50 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/5c6b/8fb4/4c21b22e642a13f62c4b2e98649ec2c9?Expires=1662336000&Signature=fyN5sa1A0vwgsA26MVmDSlVFA55aUZq28mO4HfpsxzDHlYc0nXkCYr536azFiBdykDW5ph0K1P18YXXQIXdVlN~r9-55ikMt~xkYDpHiDBsZzh2L-diHkxd8YBc~f05DrDSpcJAn6Vlx7T1Th1R~Jc96P5xjPmZ8mzlBHvVGi~Vft10jGK5eCqi8x54-o0N2X10N9oj3zTWvp8He5awvjEuP91SIzNUBwY2zH1grxJJwnv2Ph12NgGnN9NX7MMVXWcU3Hr9oNfZnnHyx9mWwnckLe6zcfUPL34kdu0gdGp9YNLTK6CjD92e5WD04m-W5fcDzIrxw5z1wiUFMJqW0kw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="Cinnabon"
-            />
-
-            <h3>Cinnabon</h3>
-            <div class="card_price">₽ • Выпечка • Десерты • Капкейки</div>
-            <div class="card_deliv_time">25 - 35 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/1c92/c4f6/10ed1555ec1226afbb7ebc94743721e9?Expires=1662336000&Signature=h2i0XV2QXl4LcPZX2KHA0QwO4eorgHJQC3wv2fWjiytvybBG7brnV8iSHB-sLmBwelOLU5k1BfeOyZPpjpQ5F7GvoUhLd-xyZeKZbkYkRZPDU1HDGAYAEqKf5q68ywiMTczfq2jEyXAL8UfEyadWbX4UzFF6Kb378Acmtjd6rLsq5-vJSt3Y2rcGW6b2vkpB7r4YHFpJrRXKe-xwbczPx9u~DQ2rNSwPGUUL9QKmZRY2cEreTQaWGxBS9LqAmNDfOldvOdSQrWpieWFQ-qQSIouVz2O~B2fnxMA5kMyEVqHiX2updLoJlQkvcLbLDjLAb9UL3ovZ4zegm1xaH7Dgew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="PIZZELOVE"
-            />
-
-            <h3>PIZZELOVE</h3>
-            <div class="card_price">₽₽ • Пицца</div>
-            <div class="card_deliv_time">15 - 25 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/5f57/fa5f/ee56bc8525b3a87273ebcaaef0d7793e?Expires=1662336000&Signature=CtQq0TpUgRYNvlB7raD~7Uf2QXfwwfqxzp7Y6vNKdLICDh4y6XUbwJWff37zqcJV63GyDUmFeEULJnihZ0AWiGmlyI0JZFYV9FbYuHQEZCbEGbl89GiQ4D1e07jYQYDpkb0BQxOLRcb4QWJA5f3QYc4xsB6XKM63WPs4ygR5m5SBjyQxxso-Zonr8InRlgqagDKNzfIVmiv3e0ZyhqnMrbXhvE6oy98VOi4SSehZd5tse6L6SYI71DORBeRSIQ0-DsFSEaKGYbRFchlG0giZfwPEw24ImPL5ipzjOWXviZyIqMcWVvbwb1GTL4-8C~hh8LBVTl0eJOJOFnVxLSI0Rw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="Zю кафе — Тверская"
-            />
-
-            <h3>Zю кафе — Тверская</h3>
-            <div class="card_price">₽₽ • Японская</div>
-            <div class="card_deliv_time">25 - 35 мин</div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-md-6 col-lg-4">
-          <a href="pushkin.html" class="card">
-            <img
-              class="card_img"
-              src="https://s3-alpha-sig.figma.com/img/0b8c/5c46/ca4a31f783e1a79e2b56b3218a4dc177?Expires=1662336000&Signature=TTHlJNvnzXLkvkT4kNTDy51M~-pPapj-~GlHrTitASVjtoovgqfXWccxz0OwJ-A1ZU6~JMXnQbVnjTWhEhbJGvgqrr~Dc3ynlAhzHU7pT0pN2QSFwv5olQkm202gEKLlIjuZBGNtaglU5g4nUjnsTLadnVrN8O-fbU2Gn7SEvQbznn3eeaMOEm9x06G7ILCpF-MJWwruoNxwMI2T6bEPYW3ryhrv5CWpgN-CFgBxHXfjFUacqup1eh~uVL-ygGq6QLG~y--iGvBDDcZwT9nAMGS2oeq27Npw-Sz525s~n0K3FVybgKdZaMfDqZB~Z~FNVzeusdzjU11q9qTfjI5G4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-              alt="Bar BQ Cafe — Манежная"
-            />
-
-            <h3>Bar BQ Cafe — Манежная</h3>
-            <div class="card_price">₽₽₽ • Европейская</div>
-            <div class="card_deliv_time">30 - 40 мин</div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="page_bottom">
-      <div class="container">
         <img
-          src="img/Stores/white-logo.svg"
-          alt="logo"
-          style="margin-top: 56px"
-          width="190.77"
-          height="19.69"
+                src="img/Stores/white-logo.svg"
+                alt="logo"
+                style="margin-top: 56px"
+                width="190.77"
+                height="19.69"
         />
 
         <div class="divider"></div>
 
         <div class="row" style="margin-top: 32px; margin-bottom: 25px">
-          <div class="col-xs-7 col-md-3 col-lg-3">
-            <div
-              style="
+            <div class="col-xs-7 col-md-3 col-lg-3">
+                <div
+                        style="
                 display: flex;
                 flex-direction: row;
                 background: #3b3b3b;
                 border-radius: 2px;
                 height: 40px;
               "
-            >
-              <img
-                src="img/Stores/world.svg"
-                alt="world"
-                style="margin-top: 12.14px; margin-left: 16px"
-                width="15.72"
-                height="15.72"
-                ;
-              />
-              <select class="custom-select">
-                <option selected>Русский</option>
-                <option value="1">English</option>
-              </select>
+                >
+                    <img
+                            src="img/Stores/world.svg"
+                            alt="world"
+                            style="margin-top: 12px; margin-left: 16px"
+                            width="15.72"
+                            height="15.72"
+                    />
+                    <label>
+                        <select class="custom-select">
+                            <option selected>Русский</option>
+                            <option value="1">English</option>
+                        </select>
+                    </label>
 
-              <img
-                src="img/Stores/if_icon-ios7-arrow-back_211686.svg"
-                alt="arrow"
-                style="margin: 16px 8px"
-                width="14"
-                height="8"
-              />
-            </div>
-            <div style="width: 96px; margin-top: 32px">
-              <div>
+                    <img
+                            src="img/Stores/if_icon-ios7-arrow-back_211686.svg"
+                            alt="arrow"
+                            style="margin: 16px 8px"
+                            width="14"
+                            height="8"
+                    />
+                </div>
+                <div style="width: 96px; margin-top: 32px">
+                    <div>
                 <span
-                  style="
-                    font-family: 'Roboto';
+                        style="
+                    font-family: 'Roboto',serif;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 19px;
                     color: #49a144;
                   "
-                  >#</span
+                >#</span
                 >
-                <span
-                  style="
-                    font-family: 'Roboto';
+                        <span
+                                style="
+                    font-family: 'Roboto',serif;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 19px;
                     color: #ffffff;
                   "
-                  >UberEats</span
-                >
-              </div>
-              <div
-                style="
+                        >UberEats</span
+                        >
+                    </div>
+                    <div
+                            style="
                   display: flex;
                   justify-content: space-between;
                   flex-direction: row;
                 "
-              >
-                <img
-                  src="img/Stores/ic/24/social/facebook.svg"
-                  alt="facebook"
-                />
-                <img src="img/Stores/ic/24/social/twitter.svg" alt="twitter" />
-                <img
-                  src="img/Stores/ic/24/social/instagram.svg"
-                  alt="instagram"
-                />
-              </div>
+                    >
+                        <img
+                                src="img/Stores/ic/24/social/facebook.svg"
+                                alt="facebook"
+                        />
+                        <img src="img/Stores/ic/24/social/twitter.svg" alt="twitter"/>
+                        <img
+                                src="img/Stores/ic/24/social/instagram.svg"
+                                alt="instagram"
+                        />
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <div class="col-xs-7 col-md-3 col-lg-3">
-            <div class="bottom_words_list_1">
-              <div class="bottom_text_btns">Об UberEats</div>
-              <div class="bottom_text_btns">Станьте партнёром по доставке</div>
-              <div class="bottom_text_btns">Станьте парнёром-рестораном</div>
+            <div class="col-xs-7 col-md-3 col-lg-3">
+                <div class="bottom_words_list_1">
+                    <div class="bottom_text_btns">Об UberEats</div>
+                    <div class="bottom_text_btns">Станьте партнёром по доставке</div>
+                    <div class="bottom_text_btns">Станьте парнёром-рестораном</div>
+                </div>
             </div>
-          </div>
 
-          <div class="col-xs-7 col-md-3 col-lg-3">
-            <div class="bottom_words_list_2">
-              <div class="bottom_text_btns">Все города</div>
-              <div class="bottom_text_btns">Цены</div>
-              <div class="bottom_text_btns">Помощь</div>
-              <div class="bottom_text_btns">FAQs</div>
+            <div class="col-xs-7 col-md-3 col-lg-3">
+                <div class="bottom_words_list_2">
+                    <div class="bottom_text_btns">Все города</div>
+                    <div class="bottom_text_btns">Цены</div>
+                    <div class="bottom_text_btns">Помощь</div>
+                    <div class="bottom_text_btns">FAQs</div>
+                </div>
             </div>
-          </div>
         </div>
 
         <div class="divider" style="margin-bottom: 41px"></div>
 
         <div
-          style="
+                style="
             display: flex;
             justify-content: space-around;
             margin-bottom: 39px;
           "
         >
-          <div>
-            <img
-              style="margin-right: 40px"
-              src="img/Stores/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-              alt=""
-            />
-            <img src="img/Stores/en_badge_web_generic-cf6dad406f.svg" alt="" />
-          </div>
+            <div>
+                <img
+                        style="margin-right: 40px"
+                        src="img/Stores/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+                        alt=""
+                />
+                <img src="img/Stores/en_badge_web_generic-cf6dad406f.svg" alt=""/>
+            </div>
         </div>
 
         <div class="divider" style="margin-bottom: 40px"></div>
 
         <div class="container" style="padding-bottom: 16px">
-          <div class="row">
-            <div class="col-xs-8 col-md-4 col-lg-4">
-              <div class="bottom_text">© 2017 Uber Technologies Inc.</div>
+            <div class="row">
+                <div class="col-xs-8 col-md-4 col-lg-4">
+                    <div class="bottom_text">© 2017 Uber Technologies Inc.</div>
+                </div>
+                <div class="col-xs-8 col-md-4 col-lg-4">
+                    <div class="bottom_text">Обработка персональных данных</div>
+                </div>
+                <div class="col-xs-8 col-md-4 col-lg-4">
+                    <div class="bottom_text">Пользовательское соглашение</div>
+                </div>
             </div>
-            <div class="col-xs-8 col-md-4 col-lg-4">
-              <div class="bottom_text">Обработка персональных данных</div>
-            </div>
-            <div class="col-xs-8 col-md-4 col-lg-4">
-              <div class="bottom_text">Пользовательское соглашение</div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
+</div>
 
-    <a
-      href="#nav_bar"
-      style="
+<a
+        href="#nav_bar"
+        style="
         position: fixed;
         width: 80px;
         height: 80px;
         bottom: 24px;
         right: 16px;
       "
-    >
-      <img src="img/Stores/btn-up.svg" alt="btn-up" width="80" height="80" />
-    </a>
-  </body>
+>
+    <img src="img/Stores/btn-up.svg" alt="btn-up" width="80" height="80"/>
+</a>
+</body>
 </html>
